@@ -8,15 +8,18 @@
 * __LinkedIn:__ [linkedin.com/in/yegor-chernomor](https://linkedin.com/in/yegor-chernomor)
 * __GitHub:__ [github.com/ChernomorYegor](https://github.com/ChernomorYegor)
 
+___
 ### Objective
 
 Front-end Developer
 
+___
 ### Summary
 
 I have more than 5+ years of experience in HTML development. 
 I am calm, responsible and executive, attentive to details (I use Pixel Perfect). I have an analytical mindset. I like to study, so I have good learning abilities. I have a great desire to improve my skills and abilities.
 
+___
 ### Skills
 
 * HTML5
@@ -30,6 +33,7 @@ I am calm, responsible and executive, attentive to details (I use Pixel Perfect)
 
 English – Intermediate. I can read technical literature.
 
+___
 ### Education
 
 * __11.2019 - 06.2020__ – Coding School TeachMeSkills.
@@ -47,6 +51,7 @@ Faculty of Information Technologies and Robotics.
 __Specialty:__ industrial Robots and Robotic System.
 __Qualification:__ Electrical and Mechanical Engineer.
 
+___
 ### Work experience
 
 * __12.2014 - 10.2016__ – Individual Entrepreneur (Freelance), HTML5 Developer.
