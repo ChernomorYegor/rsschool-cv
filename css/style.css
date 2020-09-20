@@ -68,7 +68,20 @@ li {
   margin-top: .25em;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 p {
+  margin-bottom: 16px;
+}
+
+li p {
+  margin-bottom: 0;
+}
+
+li p:last-child {
   margin-bottom: 16px;
 }
 
