@@ -1,1 +1,0 @@
-https://ChernomorYegor.github.io/rsschool-cv/cv
