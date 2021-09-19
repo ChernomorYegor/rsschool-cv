@@ -45,45 +45,6 @@ ___
 English – [B2 Upper Intermediate (CEFR)](https://www.efset.org/cert/jXLAay). I can read technical literature.
 
 ___
-### Code example
-
-The code for the function that generates a new starting map for the "Dungeon Crawl" game:
-```javascript
-function generateMap(playerX) {
-    let generatedMap = [];
-    let numberOfWalls = Math.ceil(mapWidth * difficulty / 100);
-
-    for (let i = 0; i < mapHeight; i++) {
-        let generatedRowMap = [];
-        if (i === 0) {
-            generatedRowMap[playerX] = PLAYER;
-        }
-
-        let wallVar = 0;
-        while (wallVar < numberOfWalls) {
-            let randomSquare = getRandomNumber(0, mapWidth - 1);
-            if (generatedRowMap[randomSquare] !== WALL && generatedRowMap[randomSquare] !== PLAYER &&
-                !(i === 1 && randomSquare === playerX)) {
-                generatedRowMap[randomSquare] = WALL;
-                wallVar++;
-            }
-        }
-
-        for (let j = 0; j < mapWidth; j++) {
-            if (!generatedRowMap[j]) {
-                generatedRowMap[j] = EMPTY;
-            }
-        }
-        generatedMap.push(generatedRowMap);
-    }
-    generateBosses(generatedMap, BOSSES);
-    generateItems(generatedMap, CERTIFICATES, CERTIFICATE);
-
-    return generatedMap;
-}
-```
-
-___
 ### Work experience
 
 * __09.2020 - present__ – Individual Entrepreneur (Freelance), Front End Developer.  
@@ -125,3 +86,42 @@ __Qualification:__ Software Engineer, Web Designer.
 Faculty of Information Technologies and Robotics.  
 __Specialty:__ industrial Robots and Robotic System.  
 __Qualification:__ Electrical and Mechanical Engineer.
+
+___
+### Code example
+
+The code for the function that generates a new starting map for the "Dungeon Crawl" game:
+```javascript
+function generateMap(playerX) {
+    let generatedMap = [];
+    let numberOfWalls = Math.ceil(mapWidth * difficulty / 100);
+
+    for (let i = 0; i < mapHeight; i++) {
+        let generatedRowMap = [];
+        if (i === 0) {
+            generatedRowMap[playerX] = PLAYER;
+        }
+
+        let wallVar = 0;
+        while (wallVar < numberOfWalls) {
+            let randomSquare = getRandomNumber(0, mapWidth - 1);
+            if (generatedRowMap[randomSquare] !== WALL && generatedRowMap[randomSquare] !== PLAYER &&
+                !(i === 1 && randomSquare === playerX)) {
+                generatedRowMap[randomSquare] = WALL;
+                wallVar++;
+            }
+        }
+
+        for (let j = 0; j < mapWidth; j++) {
+            if (!generatedRowMap[j]) {
+                generatedRowMap[j] = EMPTY;
+            }
+        }
+        generatedMap.push(generatedRowMap);
+    }
+    generateBosses(generatedMap, BOSSES);
+    generateItems(generatedMap, CERTIFICATES, CERTIFICATE);
+
+    return generatedMap;
+}
+```
