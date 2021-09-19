@@ -84,6 +84,18 @@ function generateMap(playerX) {
 ```
 
 ___
+### Work experience
+
+* __09.2020 - present__ – Individual Entrepreneur (Freelance), Front End Developer.  
+__Main responsibilities:__ Front End Development using HTML5, BEM, CSS3, Sass/SCSS, JavaScript, Git, GitHub.
+
+* __12.2014 - 10.2016__ – Individual Entrepreneur (Freelance), Web Developer.  
+__Main responsibilities:__ Web Development using Photoshop, HTML5, CSS3, JavaScript, jQuery.
+
+* __01.2010 - 12.2014__ – Freelance, Web Developer.  
+__Main responsibilities:__ Web Development using Photoshop, HTML, CSS, JavaScript, jQuery.
+
+___
 ### Education
 
 * __07.2021 - 09.2021__ – The Rolling Scopes School 
