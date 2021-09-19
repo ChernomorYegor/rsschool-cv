@@ -28,3 +28,18 @@ My main goal is to learn how to create good web applications and learn the techn
 
 I am a calm, responsible and executive, attentive to details person (I always use Pixel Perfect =)) 
 who has an analytical mindset and a good learning ability.
+
+___
+### Skills
+
+* Photoshop, Figma
+* HTML5, BEM
+* CSS3, Sass/SCSS
+* Bootstrap
+* JavaScript, AJAX, jQuery
+* Git, GitHub
+* Webpack, npm, gulp
+* React, React-Router
+* Redux, Redux Saga
+
+English – [B2 Upper Intermediate (CEFR)](https://www.efset.org/cert/jXLAay). I can read technical literature.
