@@ -43,3 +43,34 @@ ___
 * Redux, Redux Saga
 
 English – [B2 Upper Intermediate (CEFR)](https://www.efset.org/cert/jXLAay). I can read technical literature.
+
+___
+### Education
+
+* __07.2021 - 09.2021__ – The Rolling Scopes School 
+([Certificate](https://app.rs.school/certificate/wf6u50rq)).  
+__Course:__ JS/FE Pre-School (JavaScript).  
+__Description:__ Development using HTML5, CSS3, JavaScript, Git, GitHub, Figma.  
+[Slider "Premier League Stadiums"](https://chernomoryegor.github.io/premier-league-stadiums/) 
+([Source code](https://github.com/ChernomorYegor/premier-league-stadiums)) 
+
+* __11.2019 - 06.2020__ – Coding School TeachMeSkills 
+([Certificate](https://media-exp1.licdn.com/dms/image/C4D2DAQG7xJ4qNS_U-w/profile-treasury-image-shrink_800_800/0/1597479377694?e=1632139200&v=beta&t=Vahd7t7R7S6Fc4MFnonrIYhmyeShcxoMGwtKhcub8As)).  
+__Course:__ Front End Developer.  
+__Description:__ Web development using Photoshop, HTML5, CSS3, JavaScript, AJAX, Git, Bootstrap, Webpack, npm, 
+React, React-Router, Redux, Redux Saga.  
+[React game "Dungeon Crawl"](https://chernomoryegor.github.io/react-dungeon-crawl/) 
+([Source code](https://github.com/ChernomorYegor/react-dungeon-crawl)) / 
+[React game "Tic Tac Toe"](https://chernomoryegor.github.io/react-tic-tac-toe/) 
+([Source code](https://github.com/ChernomorYegor/react-tic-tac-toe))  
+
+* __10.2008 - 04.2010__ – Belarusian National Technical University.  
+The Branch of BNTU "Institute of Improvement of Professional Skills 
+and Staff Retraining on New Directions of Engineering, Technology and Economy".  
+__Specialty:__ Web Design and Computer Graphics.  
+__Qualification:__ Software Engineer, Web Designer.
+
+* __09.2002 – 06.2007__ – Belarusian National Technical University.  
+Faculty of Information Technologies and Robotics.  
+__Specialty:__ industrial Robots and Robotic System.  
+__Qualification:__ Electrical and Mechanical Engineer.
