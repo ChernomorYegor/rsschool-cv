@@ -373,6 +373,10 @@ section {
   border-bottom: 3px solid var(--color-secondary);
 }
 
+.caption.right {
+  justify-content: flex-end;
+}
+
 /* Contacts */
 
 .contacts-list {
@@ -412,4 +416,25 @@ section {
   width: 24px;
   height: 24px;
   margin-right: 8px;
+}
+
+/* Summary */
+
+.summary {
+  margin: 35px 0;
+  padding: 35px;
+  font-style: italic;
+  background: var(--color-light);
+  border-radius: 6px;
+}
+
+.summary p {
+  margin-bottom: 1rem;
+  font-size: 20px;
+  letter-spacing: 0.025rem;
+  color: var(--color-dark);
+}
+
+.summary p:last-child {
+  margin-bottom: 0;
 }
