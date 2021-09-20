@@ -8,7 +8,8 @@
   --color-orange: #f09137;
   --color-light: #ffffff;
   --color-gray: #444444;
-  --color-dark: #333333;
+  --color-gray-dark: #333333;
+  --color-dark: #050505;
 }
 
 /* CSS-Reset & General Styles */
@@ -37,7 +38,7 @@ html {
 }
 
 body {
-  background-color: var(--color-dark);
+  background-color: var(--color-gray-dark);
 }
 
 h1 {
@@ -45,7 +46,7 @@ h1 {
   font-size: 3rem;
   text-align: center;
   text-transform: uppercase;
-  color: #000000;
+  color: var(--color-dark);
 }
 
 @media (max-width: 480px) {
@@ -57,12 +58,29 @@ h1 {
 h2 {
   font-size: 2.25rem;
   text-align: center;
-  color: #000000;
+  color: var(--color-dark);
 }
 
 @media (max-width: 480px) {
   h2 {
     font-size: 1.6rem;
+  }
+}
+
+h3 {
+  display: inline-block;
+  padding: 0 1rem;
+  font-size: 2rem;
+  color: var(--color-dark);
+  background: var(--color-secondary);
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+@media (max-width: 480px) {
+  h3 {
+    margin: 0 auto;
+    font-size: 1.5rem;
   }
 }
 
@@ -83,6 +101,23 @@ li {
 
 button {
   cursor: pointer;
+}
+
+address {
+  padding: 35px 0;
+  font-style: normal;
+}
+
+section {
+  margin: 0 40px;
+  padding-top: 75px;
+  border-bottom: 3px solid var(--color-secondary);
+}
+
+@media (max-width: 768px) {
+  section {
+    margin: 0;
+  }
 }
 
 /* Container for sections of page  */
@@ -145,7 +180,7 @@ button {
     width: 100%;
     padding: 0;
     text-align: center;
-    border-bottom: 1px solid var(--color-dark);
+    border-bottom: 1px solid var(--color-gray-dark);
   }
 }
 
@@ -186,7 +221,7 @@ button {
 @media (max-width: 768px) {
   .menu-toggle {
     display: flex;
-    border-left: 1px solid var(--color-dark);
+    border-left: 1px solid var(--color-gray-dark);
   }
 }
 
@@ -239,7 +274,7 @@ button {
   padding-top: 75px;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
   .head-container {
     flex-direction: column;
   }
@@ -321,4 +356,52 @@ button {
   .headers-block {
     height: 300px;
   }
+}
+
+/* Caption */
+
+.caption {
+  display: flex;
+  border-bottom: 3px solid var(--color-secondary);
+}
+
+/* Contacts */
+
+.contacts-list {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  height: 140px;
+}
+
+@media (max-width: 1024px) {
+  .contacts-list {
+    height: 210px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contacts-list {
+    height: auto;
+  }
+}
+
+.contacts-list li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
+@media (max-width: 480px) {
+  .contacts-list li {
+    flex-direction: column;
+    height: 95px;
+  }
+}
+
+.contacts-list li svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
 }
