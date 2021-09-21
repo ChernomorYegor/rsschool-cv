@@ -588,6 +588,25 @@ small a {
   line-height: 1.7;
 }
 
+/* Code */
+
+.code {
+  margin-top: 35px;
+}
+
+.code figcaption {
+  margin-bottom: 8px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.code pre code {
+  font-size: 16px;
+  letter-spacing: 0.05rem;
+  background: var(--color-dark);
+  border-radius: 6px;
+}
+
 /* Education */
 
 .education {
@@ -685,7 +704,6 @@ small a {
 .education-description div {
   line-height: 1.7;
 }
-
 
 /* Footer of page */
 
