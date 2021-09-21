@@ -1,1 +1,1 @@
-https://ChernomorYegor.github.io/rsschool-cv/cv
+https://ChernomorYegor.github.io/rsschool-cv/
