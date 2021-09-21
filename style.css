@@ -126,6 +126,12 @@ section {
   }
 }
 
+small,
+small time,
+small a {
+  font-size: 0.9rem;
+}
+
 /* Container for sections of page  */
 
 .container {
@@ -134,7 +140,7 @@ section {
   margin: 0 auto;
 }
 
-/* Header */
+/* Header of page */
 
 .header {
   position: relative;
@@ -490,4 +496,55 @@ section {
   font-size: 32px;
   color: var(--color-primary);
   content: "●";
+}
+
+/* Footer of page */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 75px;
+  padding: 35px;
+  background-color: var(--color-gray);
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+@media (max-width: 480px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer small {
+    padding: 35px 0;
+  }
+}
+
+.github-link {
+  margin-right: 50px;
+}
+
+@media (max-width: 480px) {
+  .github-link {
+    margin: 0;
+  }
+}
+
+.github-link svg {
+  width: 24px;
+  height: 24px;
+  transition: fill 0.3s;
+  transform: scale(1.7);
+}
+
+.rss-link svg {
+  width: 80px;
+  height: 29px;
+  transition: fill 0.3s;
+}
+
+.github-link:hover svg,
+.rss-link:hover svg {
+  fill: #f3d050;
 }
