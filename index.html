@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV Yegor Chernomor</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/androidstudio.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
 </head>
 <body>
   <div class="container">
@@ -24,6 +27,9 @@
           </li>
           <li>
             <a href="#experience">Experience</a>
+          </li>
+          <li>
+            <a href="#code">Code</a>
           </li>
           <li>
             <a href="#education">Education</a>
@@ -211,6 +217,52 @@
             </div>
           </div>
         </div>
+      </section>
+
+      <!-- code -->
+      <section id="code">
+        <header class="caption">
+          <h3>Code example</h3>
+        </header>
+        <figure class="code">
+          <figcaption>The function that generates a new starting map for the "Dungeon Crawl" game.</figcaption>
+          <pre>
+            <code>
+function generateMap(playerX) {
+    let generatedMap = [];
+    let numberOfWalls = Math.ceil(mapWidth * difficulty / 100);
+
+    for (let i = 0; i &lt; mapHeight; i++) {
+        let generatedRowMap = [];
+        if (i === 0) {
+            generatedRowMap[playerX] = PLAYER;
+        }
+
+        let wallVar = 0;
+        while (wallVar &lt; numberOfWalls) {
+            let randomSquare = getRandomNumber(0, mapWidth - 1);
+            if (generatedRowMap[randomSquare] !== WALL && generatedRowMap[randomSquare] !== PLAYER &&
+                !(i === 1 && randomSquare === playerX)) {
+                generatedRowMap[randomSquare] = WALL;
+                wallVar++;
+            }
+        }
+
+        for (let j = 0; j &lt; mapWidth; j++) {
+            if (!generatedRowMap[j]) {
+                generatedRowMap[j] = EMPTY;
+            }
+        }
+        generatedMap.push(generatedRowMap);
+    }
+    generateBosses(generatedMap, BOSSES);
+    generateItems(generatedMap, CERTIFICATES, CERTIFICATE);
+
+    return generatedMap;
+}
+            </code>
+          </pre>
+        </figure>
       </section>
 
       <!-- education -->
