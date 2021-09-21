@@ -521,7 +521,6 @@ small a {
   justify-content: space-between;
   margin-bottom: 17px;
   padding: 35px;
-  font-size: 20px;
   background: var(--color-gray);
   border-radius: 6px;
 }
@@ -588,6 +587,105 @@ small a {
 .work-responsibilities {
   line-height: 1.7;
 }
+
+/* Education */
+
+.education {
+  padding: 35px 0 18px 0;
+}
+
+.education-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 17px;
+  padding: 35px;
+  background: var(--color-gray);
+  border-radius: 6px;
+}
+
+@media (max-width: 1024px) {
+  .education-item {
+    flex-direction: column;
+  }
+}
+
+.education-years-title {
+  width: 25%;
+}
+
+@media (max-width: 1024px) {
+  .education-years-title {
+    width: 100%;
+  }
+}
+
+.education-years {
+  display: inline-block;
+  margin-bottom: 30px;
+  padding: 0 12px;
+  font-size: 20px;
+  line-height: 1.8;
+  color: var(--color-dark);
+  background: var(--color-secondary);
+  border-radius: 6px;
+}
+
+@media (max-width: 1024px) {
+  .education-years {
+    margin-bottom: 25px;
+  }
+}
+
+.education-years time {
+  font-size: 20px;
+  line-height: 1.8;
+  color: var(--color-dark);
+}
+
+.education-title {
+  font-size: 20px;
+}
+
+@media (max-width: 1024px) {
+  .education-title {
+    margin-bottom: 35px;
+  }
+}
+
+.education-course {
+  width: 20%;
+}
+
+@media (max-width: 1024px) {
+  .education-course {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  .education-course h5 {
+    margin-bottom: 25px;
+  }
+}
+
+.education-description {
+  width: 45%;
+}
+
+@media (max-width: 1024px) {
+  .education-description {
+    width: 100%;
+  }
+
+  .education-description h5 {
+    margin-bottom: 25px;
+  }
+}
+
+.education-course div,
+.education-description div {
+  line-height: 1.7;
+}
+
 
 /* Footer of page */
 
